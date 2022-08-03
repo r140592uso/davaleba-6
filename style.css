@@ -110,30 +110,21 @@ body{
 }
 @keyframes example {
     0%   {transform: rotate(0deg); opacity: 0.2; left:10px; top:0px;}
-    10%  {transform: rotate(180deg);opacity: 1; left:10px; top:50px;}
-    40%  {transform: rotate(360deg)}
-    50%  {transform: rotate(-10deg)}
-    60%  {transform: rotate(180deg)}
-    70%  {transform: rotate(360deg)}
-    80%  {transform: rotate(-10deg)}
-    95%  {transform: rotate(-250deg);opacity:1; left:20; top:690px;}
-    98%  {transform: rotate(-340deg);opacity:0; left:20; top:690px;}
-    100% {transform: rotate(-360deg);opacity: 0; left:0px; top:0px;}
+    10%  {transform: rotate(180deg);opacity: 1; left:20px;}
+    50%  {transform: rotate(800deg);opacity: 1; left:30px;}
+    95%  {transform: rotate(1200deg);opacity:1; left:20px; top:690px;}
+    98%  {transform: rotate(1800deg);opacity:0; left:20px; top:690px;}
+    100% {transform: rotate(2000deg);opacity: 0; left:0px; top:0px;}
 }
 @keyframes example1 {
     0%   {transform: rotate(0deg);opacity: 0.2; left:10px; top:0px;}
-    10%  {transform: rotate(180deg)}
-    40%  {transform: rotate(360deg)}
-    50%  {transform: rotate(-10deg)}
-    60%  {transform: rotate(180deg)}
-    70%  {transform: rotate(360deg)}
-    80%  {transform: rotate(0deg)}
-    95%  {transform: rotate(-250deg);opacity:1; left:20; top:750px;}
-    98%  {transform: rotate(-340deg);opacity:0; left:20; top:750px;}
-    100% {transform: rotate(-360deg);opacity: 0; left:0px; top:0px;}
+    10%  {transform: rotate(180deg);opacity: 1; left:40px; }
+    95%  {transform: rotate(1000deg);opacity:1; left:50px; top:750px;}
+    98%  {transform: rotate(1800deg);opacity:0; left:60px; top:750px;}
+    100% {transform: rotate(2000deg);opacity: 0; left:0px; top:0px;}
 }
-.snowflakes{height: 750px;
-    
+.snowflakes{
+    height: 750px;
 }
 .snowman{
     position: relative;
