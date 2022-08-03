@@ -1,0 +1,123 @@
+body{
+    background-image: url(images/background2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.test {
+    position: relative;
+    animation: example 15s infinite 0.5s;
+    display: inline-block;
+}
+.test1 {
+    position: relative;
+    animation: example1 16s infinite;
+    display: inline-block;
+}
+.test2 {
+    position: relative;
+    animation: example 5s infinite 0.5s;
+    display: inline-block;
+}
+.test3 {
+    position: relative;
+    animation: example1 20s infinite;
+    display: inline-block;
+}
+.test4 {
+    position: relative;
+    animation: example 21s infinite 0.5s;
+    display: inline-block;
+}
+.test5 {
+    position: relative;
+    animation: example 16s infinite;
+    display: inline-block;
+}
+.test6 {
+    position: relative;
+    animation: example 11s infinite 0.5s;
+    display: inline-block;
+}
+.test7 {
+    position: relative;
+    animation: example1 14s infinite;
+    display: inline-block;
+}
+.test8 {
+    position: relative;
+    animation: example 27s infinite 0.5s;
+    display: inline-block;
+}
+.test9 {
+    position: relative;
+    animation: example 20s infinite;
+    display: inline-block;
+}
+.test10 {
+    position: relative;
+    animation: example 8s infinite 0.5s;
+    display: inline-block;
+}
+.test11 {
+    position: relative;
+    animation: example1 9s infinite;
+    display: inline-block;
+}
+.test12 {
+    position: relative;
+    animation: example 30s infinite 0.5s;
+    display: inline-block;
+}
+.test13 {
+    position: relative;
+    animation: example1 25s infinite;
+    display: inline-block;
+}
+.test14 {
+    position: relative;
+    animation: example 13s infinite 0.5s;
+    display: inline-block;
+}
+.test15 {
+    position: relative;
+    animation: example 5s infinite;
+    display: inline-block;
+}
+.test16 {
+    position: relative;
+    animation: example1 18s infinite 0.5s;
+    display: inline-block;
+}
+.test17 {
+    position: relative;
+    animation: example 17s infinite;
+    display: inline-block;
+}
+.test18 {
+    position: relative;
+    animation: example 12s infinite 0.5s;
+    display: inline-block;
+}
+.test19 {
+    position: relative;
+    animation: example1 15s infinite;
+    display: inline-block;
+}
+.test20 {
+    position: relative;
+    animation: example 9s infinite 0.5s;
+    display: inline-block;
+}
+@keyframes example {
+    0%   {transform: rotate(0deg); opacity: 0.2; left:10px; top:0px;}
+    10%  {transform: rotate(30deg);opacity: 1; left:10px; top:50px;}
+    95%  {transform: rotate(250deg);opacity:1; left:20; top:690px;}
+    98%  {transform: rotate(300deg);opacity:0; left:20; top:690px;}
+    100% {transform: rotate(360deg);opacity: 0; left:0px; top:0px;}
+}
+@keyframes example1 {
+    0%   {transform: rotate(0deg);opacity: 0.2; left:10px; top:0px;}
+    95%  {transform: rotate(250deg);opacity:1; left:20; top:750px;}
+    98%{transform: rotate(300deg);opacity:0; left:20; top:750px;}
+    100% {transform: rotate(360deg);opacity: 0; left:0px; top:0px;}
+}
